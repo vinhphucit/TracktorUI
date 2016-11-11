@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:padding="10dp">
+
+        <com.roxwin.tracktor.widgets.buttons.RoxwinBoldButton
+            android:id="@+id/btn_find_equipment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/white_button_selector"
+            android:drawableLeft="@drawable/search"
+            android:text="@string/where_do_you_need_the_equipment" />
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:padding="10dp">
+
+        <com.roxwin.tracktor.widgets.textviews.RoxwinBoldTextView
+            android:id="@+id/tvBePart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:text="@string/be_part_of_your_team"
+            android:textSize="@dimen/xbig_text_size" />
+
+        <com.roxwin.tracktor.widgets.textviews.RoxwinRegularTextView
+            android:id="@+id/tvBePartDesc1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvBePart"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:text="@string/bepart_description"
+            android:textSize="@dimen/normal_text_size" />
+
+        <com.roxwin.tracktor.widgets.textviews.RoxwinRegularTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvBePartDesc1"
+            android:layout_centerHorizontal="true"
+            android:text="@string/bepart_description_2"
+            android:textSize="@dimen/normal_text_size" />
+
+        <com.roxwin.tracktor.widgets.buttons.RoxwinBoldButton
+            android:id="@+id/btn_list_equipment"
+            style="@style/list_equpment_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:text="@string/list_your_farm_equipment" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/dashboard_background"
+        android:padding="20dp">
+
+        <com.roxwin.tracktor.widgets.textviews.RoxwinBoldTextView
+            android:id="@+id/tvShare"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Share"
+            android:textColor="@color/white"
+            android:textSize="@dimen/xbig_text_size" />
+
+        <com.roxwin.tracktor.widgets.textviews.RoxwinBoldTextView
+            android:id="@+id/tvTracktor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvShare"
+            android:text="TRACKTOR"
+            android:textColor="@color/white"
+            android:textSize="@dimen/xbig_text_size" />
+
+
+        <com.roxwin.tracktor.widgets.textviews.RoxwinRegularTextView
+            android:id="@+id/tvCredit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/tvEarn"
+            android:layout_alignParentRight="true"
+            android:text="Give 25£ credit,"
+            android:textColor="@color/white"
+            android:textSize="@dimen/normal_text_size" />
+
+        <com.roxwin.tracktor.widgets.textviews.RoxwinRegularTextView
+            android:id="@+id/tvEarn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:text="Earn up to 100£"
+            android:textColor="@color/white"
+            android:textSize="@dimen/normal_text_size" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/black"
+        android:padding="10dp">
+
+        <com.roxwin.tracktor.widgets.buttons.RoxwinBoldButton
+            style="@style/invite_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/invite_your_friends" />
+
+    </RelativeLayout>
+</LinearLayout>

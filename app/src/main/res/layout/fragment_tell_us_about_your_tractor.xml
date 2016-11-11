@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/comp"
+        android:layout_above="@+id/btn_find_equipment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/background_about"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:src="@drawable/about_background" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/background_about"
+                android:paddingTop="10dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp">
+
+                <com.roxwin.tracktor.widgets.textviews.RoxwinRegularTextView
+                    android:id="@+id/tv_where_is_it_located"
+                    style="@style/about_tractor_form"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:text="@string/where_is_it_located" />
+
+                <com.roxwin.tracktor.widgets.edittexts.RoxwinRegularEditText
+                    android:id="@+id/et_enter_address"
+                    style="@style/about_tractor_form"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tv_where_is_it_located"
+                    android:hint="@string/enter_address" />
+
+                <com.roxwin.tracktor.widgets.textviews.RoxwinRegularTextView
+                    android:id="@+id/tv_which_tractor"
+                    style="@style/about_tractor_form"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/et_enter_address"
+                    android:layout_marginTop="15dp"
+                    android:text="@string/which_tractor_do_you_own" />
+
+
+                <com.roxwin.tracktor.widgets.edittexts.RoxwinRegularEditText
+                    android:id="@+id/et_year"
+                    style="@style/about_tractor_form"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tv_which_tractor"
+                    android:hint="@string/year" />
+
+                <com.roxwin.tracktor.widgets.edittexts.RoxwinRegularEditText
+                    android:id="@+id/et_brand"
+                    style="@style/about_tractor_form"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/et_year"
+                    android:hint="@string/brand" />
+
+                <com.roxwin.tracktor.widgets.edittexts.RoxwinRegularEditText
+                    android:id="@+id/et_model"
+                    style="@style/about_tractor_form"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/et_brand"
+                    android:hint="@string/model" />
+
+                <com.roxwin.tracktor.widgets.edittexts.RoxwinRegularEditText
+                    android:id="@+id/et_transmission"
+                    style="@style/about_tractor_form"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/et_model"
+                    android:hint="@string/transmission" />
+
+                <com.roxwin.tracktor.widgets.edittexts.RoxwinRegularEditText
+                    android:id="@+id/et_cc"
+                    style="@style/about_tractor_form"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/et_transmission"
+                    android:hint="@string/cc" />
+
+            </RelativeLayout>
+        </RelativeLayout>
+    </ScrollView>
+
+    <com.roxwin.tracktor.widgets.buttons.RoxwinBoldButton
+        android:id="@+id/btn_find_equipment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="10dp"
+        android:background="@drawable/grey_button_selector"
+        android:text="@string/submit"
+        android:textColor="@color/white" />
+</RelativeLayout>

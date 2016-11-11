@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">Tracktor</string>
+<string name="google_api_key" translatable="false">AIzaSyCnSJ_6Fb3FbZrtQtOtEE57MgRsQCCgCJk</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="login">LOGIN</string>
+    <string name="browse_equipment">Browse equipment</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="messages">Messages</string>
+    <string name="list_your_equipment">List your equipment</string>
+    <string name="rent_history">Rent history</string>
+    <string name="favourites">Favourites</string>
+    <string name="account">Account</string>
+    <string name="earn_free_rents">Earn free rents</string>
+    <string name="how_tracktor_works">How TRACKTOR works</string>
+    <string name="contact_support">Contact support</string>
+    <string name="tracktor">TRACKTOR</string>
+    <string name="tell_us_about_your_tractor">TELL US ABOUT YOUR TRACTOR</string>
+    <string name="rent_farm_equipment">RENT FARM EQUIPMENT</string>
+    <string name="where_is_it_located">Where is it located?</string>
+    <string name="enter_address">Enter address</string>
+    <string name="which_tractor_do_you_own">Which tractor do you own?</string>
+    <string name="year">Year</string>
+    <string name="brand">Brand</string>
+    <string name="model">Model</string>
+    <string name="transmission">Transmission</string>
+    <string name="cc">CC</string>
+    <string name="action_bar_dashboard">DASHBOARD</string>
+    <string name="invite_your_friends">Invite your friends</string>
+    <string name="list_your_farm_equipment">List your farm equipment</string>
+    <string name="be_part_of_your_team">Be part of our team!</string>
+    <string name="bepart_description">Rent your tractor and or agricultural</string>
+    <string name="bepart_description_2">equipment and earn extra cash</string>
+    <string name="where_do_you_need_the_equipment">Where do you need the equipment?</string>
+    <string name="find_location">FIND LOCATION</string>
+    <string name="facebook_login">Facebook Login</string>
+    <string name="login_with_facebook">Login With Facebook</string>
+    <string name="email">Email</string>
+    <string name="next">Next</string>
+    <string name="password">Password</string>
+    <string name="done">Done</string>
+    <string name="forgot_password_hint">Forgot password</string>
+    <string name="register">Register</string>
+    <string name="submit">Submit</string>
+    <string name="per_day">per day</string>
+    <string name="share">Share</string>
+    <string name="search">Search</string>
+    <string name="book">Book Instantly</string>
+</resources>

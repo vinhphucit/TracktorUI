@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/left_drawer"
+    android:layout_width="300dp"
+    android:layout_height="match_parent"
+    android:layout_gravity="start"
+    android:background="@color/nav_background_grey"
+    android:clickable="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <include layout="@layout/nav_header_master"></include>
+
+        <RelativeLayout
+            android:id="@+id/nav_browse_equipment"
+            style="@style/nav_background_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.roxwin.tracktor.widgets.textviews.RoxwinBoldTextView
+                style="@style/nav_text_row"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/browse_equipment" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/nav_dashboard"
+            style="@style/nav_background_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.roxwin.tracktor.widgets.textviews.RoxwinBoldTextView
+                style="@style/nav_text_row"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/dashboard" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/nav_messages"
+            style="@style/nav_background_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.roxwin.tracktor.widgets.textviews.RoxwinBoldTextView
+                style="@style/nav_text_row"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/messages" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/nav_list_your_equipment"
+            style="@style/nav_background_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.roxwin.tracktor.widgets.textviews.RoxwinBoldTextView
+                style="@style/nav_text_row"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/list_your_equipment" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/nav_rent_history"
+            style="@style/nav_background_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.roxwin.tracktor.widgets.textviews.RoxwinBoldTextView
+                style="@style/nav_text_row"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/rent_history" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/nav_favourites"
+            style="@style/nav_background_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.roxwin.tracktor.widgets.textviews.RoxwinBoldTextView
+                style="@style/nav_text_row"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/favourites" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/nav_account"
+            style="@style/nav_background_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.roxwin.tracktor.widgets.textviews.RoxwinBoldTextView
+                style="@style/nav_text_row"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/account" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/nav_earn_free_rents"
+            style="@style/nav_background_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.roxwin.tracktor.widgets.textviews.RoxwinBoldTextView
+                style="@style/nav_text_row"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/earn_free_rents" />
+        </RelativeLayout>
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/white" />
+
+        <RelativeLayout
+            android:id="@+id/nav_how_tracktor_works"
+            style="@style/nav_background_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.roxwin.tracktor.widgets.textviews.RoxwinBoldTextView
+                style="@style/nav_text_row"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/how_tracktor_works" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/nav_contact_support"
+            style="@style/nav_background_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.roxwin.tracktor.widgets.textviews.RoxwinBoldTextView
+                style="@style/nav_text_row"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/contact_support" />
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>
